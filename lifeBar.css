@@ -1,0 +1,42 @@
+*{
+    font-size: 5vw;
+}
+
+.plus{
+    background-color: rgb(197, 233, 143);
+    height: .6rem;
+    width: .6rem;
+    border-radius: 100%;
+    clip-path: polygon(40% 0,60% 0,60% 40%,100% 40%,100% 60%,60% 60%,60% 100%,40% 100%,40% 60%,0 60%,0 40%,40% 40%);
+
+}
+
+.playerLife .roundSymbol{
+    background-color: rgb(78, 226, 9);
+    height: .6rem;
+    width: .6rem;
+    padding: .07rem;
+    border-radius: 100%;  
+}
+
+.thunder{
+    background-color: rgb(243, 247, 19);
+    height: .6rem;
+    width: .6rem;
+
+    clip-path: polygon(20% 30%,100% 0,50% 30%,80% 70%,0 100%,50% 70%);
+
+}
+.speed .roundSymbol{
+    background-color: rgb(123, 96, 241);
+    height: .6rem;
+    width: .6rem;
+    padding: .07rem;
+    border-radius: 100%;  
+}
+.lifebar{
+position: absolute;
+top: 0;
+left: 0;
+}
+
